@@ -24,6 +24,6 @@ func main() {
 	var ix string = "Hello"
 	var jx int = 15
 
-	fmt.Printf("i has value: %v and type: %T\n", ix, x)
+	fmt.Printf("i has value: %v and type: %T\n", ix, ix)
 	fmt.Printf("j has value: %v and type: %T", jx, jx)
 }
