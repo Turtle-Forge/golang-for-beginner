@@ -24,6 +24,22 @@ func main() {
 	default:
 		fmt.Println("Invalid day")
 	}
+
+	// Switch with multiple cases
+	grade := 'B'
+	switch grade {
+	case 'A', 'B':
+		fmt.Println("Excellent")
+	case 'C':
+		fmt.Println("Good")
+	case 'D':
+		fmt.Println("Fair")
+	case 'F':
+		fmt.Println("Poor")
+	default:
+		fmt.Println("Invalid grade")
+	}
+
 }
 
 // Switch statement example
